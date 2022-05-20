@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>JavaScript</title>
+    </head>
+    <body>
+        <p>JavaScript is cool</p>
+    </body>
+    <script>
+
+        // input
+
+        // let user_name = "Ivan";
+        let user_name = prompt("Enter your name: ");
+        //...
+        let age = +(prompt("Enter your age: "));
+
+        //...
+
+        let message = `Hello, ${user_name}. You are ${age} years old.`;
+
+        let message2 = 'Hello, Ivan';
+
+        //...
+        
+
+        // output
+        console.log(typeof(user_name));
+        console.log(typeof(age));
+        alert(message);
+
+        let result = confirm("Your age is 20");
+
+        console.log(result);
+
+        // Mathematical operation
+        /*
+        
+        + - сумма
+        - - разность
+        * - умножение
+        / - деление
+        ** - возведенеи в степень
+        % - остаток при делений
+
+        */
+
+        let x, y;
+
+        x = 5;
+        y = 10;
+
+        console.log(x + y);
+        console.log(x - y);
+        console.log(x * y);
+        
+        console.log(x / y);
+
+        console.log(x**y); // x ^ y
+        console.log(y**x);
+
+        console.log(26 % 5); // 26 / 5 = 5 (1/5); <-- Ответ выражение = 1
+
+
+
+        // Работа с библиотекой Math
+
+        console.log(Math.sqrt(49));
+        console.log(Math.max(30, 3, 2, 53));
+
+        console.log(Math.pow(3, 2));
+
+        console.log(Math.abs(-29));
+
+        console.log("Работа с округлениями:");
+
+        console.log(Math.round(5.49));
+
+        console.log(Math.ceil(4.1));
+
+        console.log(Math.floor(4.9));
+
+
+
+    </script>
+</html>
