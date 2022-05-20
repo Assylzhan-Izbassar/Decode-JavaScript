@@ -1,14 +1,14 @@
 # Неделя 1
 
-**Темы**
-1. Переменные.
+## Темы
+**1. Переменные.**
 - Ввод и вывод данных.
 - Базовые типы данных.
 - Присваивание.
 - Математические операторы.
 - Работа с модулем Math 
 
-**Задачи до следующего урока**
+**Задачи до следующего урока:**
 - [Регистрация в GitHub](github.com)
 - [Basic Terminal commands](https://github.com/bobur554396/PL2017FALL/blob/master/basic_commands.textile)
 - [Регистрация в CodeWars через GitHub](https://www.codewars.com/)
